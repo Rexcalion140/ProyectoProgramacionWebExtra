@@ -1,0 +1,39 @@
+ <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tarjetas Gráficas por Marca y Gama</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <header>
+ 
+<div id="modal" class="modal">
+  <div class="modal-contenido">
+    <span class="cerrar" onclick="cerrarModal()">&times;</span>
+    <div id="modal-info"></div>
+  </div>
+</div>
+
+    <h1>Tarjetas Gráficas por Marca y Gama</h1>
+    <input type="text" id="buscador" placeholder="Buscar tarjeta..." oninput="filtrarTarjetas()">
+  </header>
+
+  <div class="menu">
+    <button onclick="mostrarMarca('nvidia')">NVIDIA</button>
+    <button onclick="mostrarMarca('amd')">RADEON</button>
+    <button onclick="mostrarMarca('intel')">INTEL</button>
+  </div>
+
+  <div id="nvidia" class="marca"></div>
+  <div id="amd" class="marca"></div>
+  <div id="intel" class="marca"></div>
+<div id="modal" class="modal">
+  <div class="modal-contenido">
+    <span class="cerrar">&times;</span>
+    <div id="modal-info"></div>
+  </div>
+</div>
+<a class="btn" href="index.html">Volver al inicio</a>
+
+  <script src="script.js"></script>
+</body>
+</html>
