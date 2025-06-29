@@ -1,0 +1,84 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #1a1a1a, #2c2c2c);
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+header {
+  background-color: #b30000;
+  padding: 20px;
+  text-align: center;
+  color: white;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  position: relative;
+}
+#buscador {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 8px;
+  border-radius: 20px;
+  border: none;
+  width: 200px;
+  background-color: #333;
+  color: white;
+}
+.menu {
+  text-align: center;
+  padding: 20px;
+  background-color: #1f1f1f;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+.menu button {
+  margin: 10px;
+  padding: 10px 25px;
+  background-color: #e60000;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 1em;
+}
+.menu button:hover {
+  background-color: #990000;
+}
+.marca {
+  display: none;
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+.tarjeta {
+  background: #2c2c2c;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.6);
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 600px;
+  transition: transform 0.2s ease;
+}
+.tarjeta:hover {
+  transform: translateY(-5px);
+}
+.tarjeta img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: contain;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+.tarjeta h3 {
+  margin-top: 0;
+  font-size: 1.4em;
+  color: #ff4d4d;
+}
+.tarjeta ul {
+  list-style: none;
+  padding: 0;
+  color: #e0e0e0;
+}
+.tarjeta li {
+  padding: 4px 0;
+}
